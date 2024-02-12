@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: myFirstFont;
+  font-family: myFirstFont;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(font.otf);
+}
+body {
+  background-image: url("/images/Moon.png");
+  background-size: cover;
+  
+}
+#name h1{
+  text-align: center;
+  align-items: center;
+  font-size: 60px;
+  color: white;
+  text-shadow: 2px 2px 2px grey;
+  margin: 30px 0px;
+}
+#search-container {
+  background-color: white;
+  width: 70%;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-between;
+  transition: box-shadow 0.3s;
+  margin-bottom: 140px;
+}
+#search-container:hover {
+  box-shadow: 4px 4px 20px #6b536aa1,
+              -4px -4px 20px #6b536aa1,
+              -4px 4px 20px #6b536aa1,
+              4px -4px 20px #6b536aa1;
+}
+#city{
+  flex: 1;
+  margin: 0 10px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: #51435F;
+  cursor: pointer;
+  
+}
+#btn {
+  border-radius: 50px;
+  font-size: 20px;
+  padding: 8px 10px;
+  background-color: #E49CAB; 
+  color: white;
+  border: none;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+}
+#btn:hover {
+  box-shadow: 2px 2px 10px #6B536A,
+              -2px -2px 10px #6B536A,
+              -2px  2px 10px #6B536A,
+              2px -2px 10px #6B536A;
+}
+#btn:active {
+  box-shadow: 2px 2px 10px #6b536aa1,
+              -2px -2px 10px #6b536aa1,
+              -2px  2px 10px #6b536aa1,
+              2px -2px 10px #6b536aa1;
+}
+
+
+#temp p {
+  
+  font-size: 100px;
+  margin-top: -30px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+
+}
+
+#weatherinfo {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 187px;
+}
+
+#hourlyforecast {
+
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 25px;
+  padding: 15px;
+}
+
+
+.hourlyitem {
+  flex: 0 0 auto;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  color: white;
+  
+}
+
+.hourlyitem img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+#hourlyheading {
+  color: #fff;
+  margin-top: 30px;
+}
