@@ -9,7 +9,7 @@
   src: url(font.otf);
 }
 body {
-  background-image: url("/images/Moon.png");
+  background-image: url("images/Moon.png");
   background-size: cover;
   
 }
